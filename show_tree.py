@@ -3,6 +3,12 @@ import sys
 
 
 def print_tree(startpath, filesonly=False, dirsonly=False):
+    '''Print a tree of the directory structure starting at startpath.
+    
+    Keyword arguments:
+    filesonly -- only print files (default False)
+    dirsonly -- only print directories (default False)
+    '''
     print(f"├ {os.path.basename(startpath)}")
     for root, dirs, files in os.walk(startpath):
         level = root.replace(startpath, "").count(os.sep)
