@@ -1,16 +1,5 @@
-2023-06-10 14:58:43 - test_simple - DEBUG : This message should go to the log file
-2023-06-10 14:58:43 - test_simple - DEBUG : os.getcwd()='C:\\Users\\steph\\work\\python\\misc\\py_tree'
-2023-06-10 14:58:43 - test_simple - INFO : So should this
-2023-06-10 14:58:43 - test_simple - WARNING : And this, too
-2023-06-10 14:58:43 - test_simple - ERROR : And non-ASCII stuff, too, like Øresund and Malmö
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : Going to create test directory: ./test_dir/
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : captured.out='├ \n├──/\n|   ├──file1.txt\n|   ├──file2.txt\n|   ├──subdir1/\n|   ├──subdir2/\n├──subdir1/\n|   ├──file3.txt\n├──subdir2/\n'
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : expected_output='├ \n├──/\n|   ├──file1.txt\n|   ├──file2.txt\n|   ├──subdir1/\n|   ├──subdir2/\n├──subdir1/\n|   ├──file3.txt\n├──subdir2/\n'
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : Ran test_print_tree_default
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : captured.out='├ \n├──/\n|   ├──file1.txt\n|   ├──file2.txt\n'
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : expected_output='├ \n├──/\n|   ├──file1.txt\n|   ├──file2.txt\n'
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : Ran test_print_tree_filesonly
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : captured.out='├ \n├──/\n|   ├──subdir1/\n|   ├──subdir2/\n├──subdir1/\n├──subdir2/\n'
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : expected_output='├ \n├──/\n|   ├──subdir1/\n|   ├──subdir2/\n├──subdir1/\n├──subdir2/\n'
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : Ran test_print_tree_dirsonly
-2023-06-10 14:58:43 - test_show_tree2 - DEBUG : Test directory does not exist: ./test_dir/
+2023-06-10 15:14:38 - test_simple - DEBUG : This message should go to the log file
+2023-06-10 15:14:38 - test_simple - DEBUG : os.getcwd()='c:\\Users\\steph\\work\\python\\misc\\py_tree'
+2023-06-10 15:14:38 - test_simple - INFO : So should this
+2023-06-10 15:14:38 - test_simple - WARNING : And this, too
+2023-06-10 15:14:38 - test_simple - ERROR : And non-ASCII stuff, too, like Øresund and Malmö
