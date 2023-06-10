@@ -27,7 +27,7 @@ def print_tree(startpath, filesonly=False, dirsonly=False):
 
 
 if __name__ == "__main__":
-    theDir = r"..\.."
+    theDir = r"."
     if len(sys.argv) > 1:
         theDir = sys.argv[1]
     print('print_tree(theDir, dirsonly=True)')
