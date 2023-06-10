@@ -1,5 +1,0 @@
-2023-06-10 15:14:38 - test_simple - DEBUG : This message should go to the log file
-2023-06-10 15:14:38 - test_simple - DEBUG : os.getcwd()='c:\\Users\\steph\\work\\python\\misc\\py_tree'
-2023-06-10 15:14:38 - test_simple - INFO : So should this
-2023-06-10 15:14:38 - test_simple - WARNING : And this, too
-2023-06-10 15:14:38 - test_simple - ERROR : And non-ASCII stuff, too, like Øresund and Malmö
