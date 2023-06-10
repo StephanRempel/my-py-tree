@@ -3,6 +3,12 @@ import sys
 
 
 def print_tree(startpath, filesonly=False, dirsonly=False):
+    '''Print a tree of the directory structure starting at startpath.
+    
+    If filesonly is True, only print the files.
+    If dirsonly is True, only print the directories.
+    The default is to print both files and directories.
+    The output is indented to show the nesting of the directory structure.'''
     print(f"├ {os.path.basename(startpath)}")
     for root, dirs, files in os.walk(startpath):
         level = root.replace(startpath, "").count(os.sep)
@@ -21,12 +27,14 @@ def print_tree(startpath, filesonly=False, dirsonly=False):
 
 
 if __name__ == "__main__":
-    theDir = "..\.."
+    theDir = r"..\.."
     if len(sys.argv) > 1:
         theDir = sys.argv[1]
-
+    print('print_tree(theDir, dirsonly=True)')
     print_tree(theDir, dirsonly=True)
     print("-" * 60)
+    print('print_tree(theDir, filesonly=True)')
     print_tree(theDir, filesonly=True)
     print("-" * 60)
+    print('print_tree(theDir)')
     print_tree(theDir)
